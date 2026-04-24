@@ -9,16 +9,6 @@
    </properties>
   <profiles>
     <profile>
-      <id>HBASE-2.2-7.2.8</id>
-      <properties>
-        <phoenix.client.artifactid>phoenix-client</phoenix.client.artifactid>
-        <!-- Phoenix thick client version given by COD -->
-        <phoenix.client.version>5.2.1.7.3.2.0-957</phoenix.client.version>
-        <!-- Phoenix thin client version given by COD -->
-        <phoenix.queryserver.version>5.0.0.7.2.8.0-228</phoenix.queryserver.version>
-      </properties>
-    </profile>
-    <profile>
       <id>HBASE-2.2</id>
       <properties>
         <phoenix.client.artifactid>phoenix-client-hbase-2.2</phoenix.client.artifactid>
@@ -47,7 +37,7 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <phoenix.client.artifactid>phoenix-client-hbase-2.6</phoenix.client.artifactid>
+        <phoenix.client.artifactid>phoenix-client-embedded-hbase-2.6</phoenix.client.artifactid>
         <!-- Phoenix thick client version given by COD -->
         <phoenix.client.version>5.2.1.7.3.2.0-957</phoenix.client.version>
         <!-- Phoenix thin client version given by COD -->
