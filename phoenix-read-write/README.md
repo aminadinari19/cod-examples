@@ -54,7 +54,7 @@ If you are using any minor version of HBase 2.2 below 7.2.9 then you need to cha
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <phoenix.client.artifactid>phoenix-client-hbase-2.6</phoenix.client.artifactid>
+        <phoenix.client.artifactid>phoenix-client-embedded-hbase-2.6</phoenix.client.artifactid>
         <!-- Phoenix thick client version given by COD -->
         <phoenix.client.version>5.2.1.7.3.2.0-957</phoenix.client.version>
         <!-- Phoenix thin client version given by COD -->
